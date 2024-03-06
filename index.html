@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Shop</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <h1>Car Shop</h1>
+        <a href="#" id="cart-btn">Cart</a>
+    </header>
+    <main>
+        <section id="cars">
+            <h2>Cars for Sale</h2>
+            <div class="car">
+                <img src="https://th-i.thgim.com/public/incoming/h4bf54/article65186893.ece/alternates/LANDSCAPE_1200/Ford-Everest.jpg" alt="Car 1">
+                <h3>Ford Endeavour</h3>
+                <p>50,00,000</p>
+                <button class="add-to-cart" data-name="Ford Endeavour" data-price="5000000">Add to Cart</button>
+            </div>
+            <div class="car">
+                <img src="https://cdn.motor1.com/images/mgl/KKMG0/s1/ford-ecosport-storm-4wd.webp" alt="Car 2">
+                <h3>Ford Ecosports</h3>
+                <p>15,00,000</p>
+                <button class="add-to-cart" data-name="Ford Ecosports" data-price="1500000">Add to Cart</button>
+            </div>
+            <div class="car">
+                <img src="https://www.drivespark.com/img/2012/10/15-figo-launch-600.jpg" alt="Car 3">
+                <h3>Ford Figo</h3>
+                <p>4,80,000</p>
+                <button class="add-to-cart" data-name="Ford Figo" data-price="480000">Add to Cart</button>
+            </div>
+            <div class="car">
+                <img src="https://vehicle-images.dealerinspire.com/7eff-110010033/1FMSK7DHXRGA16010/bb4a655bc81e5796bbae9d98310089b8.jpg" alt="Car 4">
+                <h3>Ford Explorer</h3>
+                <p>65,00,000</p>
+                <button class="add-to-cart" data-name="Ford Explorer" data-price="6500000">Add to Cart</button>
+            </div>
+            <div class="car">
+                <img src="https://i.pinimg.com/originals/be/90/de/be90de507f8781737e2db19c4f9e2ff9.jpg" alt="Car 5">
+                <h3>Ford Mustang GT</h3>
+                <p>75,00,000</p>
+                <button class="add-to-cart" data-name="Ford Mustang GT" data-price="7500000">Add to Cart</button>
+            </div>
+            <div class="car">
+                <img src="https://imgd.aeplcdn.com/1200x900/cw/ec/36025/Ford-Endeavour-Exterior-135614.jpg?wm=0" alt="Car 6">
+                <h3>Ford Raptor</h3>
+                <p>1,15,00,000</p>
+                <button class="add-to-cart" data-name="Ford Raptor" data-price="11500000">Add to Cart</button>
+            </div>
+            <div class="car">
+                <img src="https://www.drivespark.com/images/2018-01/ford-freestyle-exterior-12.jpg" alt="Car 7">
+                <h3>Ford Freestyle</h3>
+                <p>8,00,000</p>
+                <button class="add-to-cart" data-name="Ford Freestyle" data-price="800000">Add to Cart</button>
+            </div>
+        </section>
+    </main>
+    <div class="cart-overlay" id="cart-overlay">
+        <div class="cart">
+            <h2>Your Cart</h2>
+            <ul id="cart-items"></ul>
+            <h3>Total: <span id="cart-total">0</span></h3>
+            <button id="clear-cart">Clear Cart</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
